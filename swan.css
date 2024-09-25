@@ -1,0 +1,28 @@
+.swan .squareRed{
+    transform:translate(74px, 229px) rotate(45deg);
+}
+.swan .triangleBlue{
+    transform: translate(-7px, 314px) rotate(45deg);
+}   
+
+.swan .triangleLime{
+    transform: translate(20px, 40px)rotate(90deg);
+}   
+
+.swan .triangleYellow {
+    transform: translate(170px, 335px) rotate(179deg);
+}
+
+
+.swan .triangleGreen{
+    transform: translate(218px, 215px) rotate(134deg);
+}
+
+.swan .trapezePurple{
+    transform: translate(92px, 126px)  rotate(-90deg)  skew(-45deg) ;
+    
+}
+
+.swan .triangleOrange{
+    transform: translate(86px, 375px) rotate(-136deg);
+}
