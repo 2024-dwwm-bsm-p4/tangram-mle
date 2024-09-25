@@ -1,41 +1,31 @@
 .square .squareRed{
-    top: 241px;
-    left: 313px;
-    transform: rotate(45deg);
+    transform:translate(313px, 241px) rotate(45deg);
 }
 
 .square .triangleBlue{
-    top: 325px;
-    left: 232px;
-    transform: rotate(315deg);
+    transform: translate(232px, 325px) rotate(315deg);
 }   
 
 .square .triangleLime{
-    top: 158px;
-    left: 397px;
-    transform: rotate(225deg);
+    transform: translate(397px, 158px)rotate(225deg);
 }   
 
-.square .triangleYellow{
-    top: 185px;
-    left: 15px;
-    transform: rotate(45deg);
+.square .triangleYellow {
+    transform: translate(15px, 185px) rotate(45deg);
 }
 
+
 .square .triangleGreen{
-    top: 20px;
-    left: 175px;
-    transform: rotate(135deg);
+    transform: translate(175px, 20px) rotate(135deg);
 }
 
 .square .trapezePurple{
-    top: 385px;
-    left: 170px;
+    transform: translate(170px, 385px) skew(-45deg);
+    
 }
 
 .square .triangleOrange{
-    top: 301px;
-    left: 297px;
-    transform: rotate(90deg);
-
+    transform: translate(297px, 301px) rotate(90deg);
 }
+
+
