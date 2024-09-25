@@ -1,0 +1,41 @@
+.square .squareRed{
+    top: 241px;
+    left: 313px;
+    transform: rotate(45deg);
+}
+
+.square .triangleBlue{
+    top: 325px;
+    left: 232px;
+    transform: rotate(315deg);
+}   
+
+.square .triangleLime{
+    top: 158px;
+    left: 397px;
+    transform: rotate(225deg);
+}   
+
+.square .triangleYellow{
+    top: 185px;
+    left: 15px;
+    transform: rotate(45deg);
+}
+
+.square .triangleGreen{
+    top: 20px;
+    left: 175px;
+    transform: rotate(135deg);
+}
+
+.square .trapezePurple{
+    top: 385px;
+    left: 170px;
+}
+
+.square .triangleOrange{
+    top: 301px;
+    left: 297px;
+    transform: rotate(90deg);
+
+}
