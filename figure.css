@@ -22,7 +22,7 @@ nav button{
 .container{
     height: 600px;
     width: 600px;
-    background-color: rgb(198, 167, 110);
+    background-color: rgb(0, 0, 0);
     margin: auto;
     position: relative;
 }
@@ -31,7 +31,7 @@ nav button{
     position: absolute;
 }
 
-div.squareRed{
+.squareRed{
     border-left: 113px solid rgb(121, 0, 0);
     border-top: 113px solid rgb(121, 0, 0);
 }
@@ -66,4 +66,8 @@ div.squareRed{
 .triangleOrange{
     border-left: 155px solid transparent;
     border-top: 155px solid rgb(198, 139, 1);  
+}
+
+.container *{
+    transition: transform 2000ms ease;
 }
