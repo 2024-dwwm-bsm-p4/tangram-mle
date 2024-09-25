@@ -13,6 +13,8 @@ const button1 = document.querySelector(".figure1")
 
 const button2 = document.querySelector(".figure2")
 
+const button6 = document.querySelector(".figure6")
+
 document.querySelector(".container").classList = "container square"
 
 //ajout de la fonction qui permet de changer la forme quand on clique sur le boutton associer 
@@ -23,4 +25,8 @@ button1.addEventListener("click", () => {
 
 button2.addEventListener("click", () => {
     document.querySelector(".container").classList = "container cat"
+});
+
+button6.addEventListener("click", () => {
+    document.querySelector(".container").classList = "container turtle"
 });
