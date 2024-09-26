@@ -31,20 +31,15 @@ button2.addEventListener("click", () => {
     document.querySelector(".container").classList = "container cat"
 });
 
-button6.addEventListener("click", () => {
-    document.querySelector(".container").classList = "container turtle"
-});
-
 button3.addEventListener("click", () => {
     document.querySelector(".container").classList = "container swan"
 });
-
-
-
-
 
 button5.addEventListener("click", () => {
     document.querySelector(".container").classList = "container heart"
 });
 
+button6.addEventListener("click", () => {
+    document.querySelector(".container").classList = "container turtle"
+});
 

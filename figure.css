@@ -19,9 +19,14 @@ nav button{
     height: 25px;
 }
 
+main{
+    width: 100vw;
+    height: 90vh;
+}
+
 .container{
-    height: 600px;
-    width: 600px;
+    height: 80%;
+    width: 50%;
     background-color: rgb(34, 195, 223);
     margin: auto;
     position: relative;
