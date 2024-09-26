@@ -1,0 +1,29 @@
+.heart .squareRed{
+    transform:translate(313px, 241px) rotate(45deg);
+}
+
+.heart .triangleBlue{
+    transform: translate(232px, 325px) rotate(315deg);
+}   
+
+.heart .triangleLime{
+    transform: translate(397px, 158px)rotate(225deg);
+}   
+
+.heart .triangleYellow {
+    transform: translate(15px, 185px) rotate(45deg);
+}
+
+
+.heart .triangleGreen{
+    transform: translate(175px, 20px) rotate(135deg);
+}
+
+.heart .trapezePurple{
+    transform: translate(170px, 385px) skew(-45deg);
+    
+}
+
+.heart .triangleOrange{
+    transform: translate(297px, 301px) rotate(90deg);
+}

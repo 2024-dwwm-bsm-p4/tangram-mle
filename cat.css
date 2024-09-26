@@ -1,27 +1,21 @@
 .cat .squareRed{
-    transform:translate( 50px, 120px) rotate(45deg);
+    transform:translate(313px, 115px) rotate(45deg);
 }
-
-.cat .triangleBlue{
-    transform: translate( -33px, 40px) rotate(45deg);
-}   
-
-.cat .triangleLime{
-    transform: translate( 133px, 40px) rotate(225deg);
-}   
-
-.cat .triangleYellow {
-    transform: translate(-3px, 303px) rotate(45deg);
-}
-
 .cat .triangleGreen{
-    transform: translate(175px, 20px) rotate(45deg);
+    transform: translate(255px, 300px) rotate(225deg);
 }
-
+.cat .triangleLime{
+    transform: translate(397px, 30px)rotate(225deg);
+}   
+.cat .triangleBlue{
+    transform: translate(232px, 30px) rotate(45deg);
+}   
+.cat .triangleYellow {
+    transform: translate(205px, 415px) rotate(180deg);
+}
 .cat .trapezePurple{
-    transform: translate(100px, 50px) rotate() skew(45deg);    
+    transform: translate(20px, 550px) rotate(45deg) skew(-45deg); 
 }
-
 .cat .triangleOrange{
-    transform: translate(30px, 290px) rotate(225deg);
+    transform: translate(295px, 285px) rotate(45deg);
 }
