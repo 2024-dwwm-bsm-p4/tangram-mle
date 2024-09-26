@@ -1,21 +1,21 @@
 .mystery1 .squareRed{
-    transform:translate(313px, 241px) rotate(45deg);
+    transform:translate(145px,280px) rotate(35deg);
 }
 .mystery1 .triangleGreen{
-    transform: translate(175px, 20px) rotate(135deg);
+    transform: translate(460px, 250px) rotate(45deg);
 }
 .mystery1 .triangleLime{
-    transform: translate(397px, 158px)rotate(225deg);
+    transform: translate(277px, 307px)rotate(135deg);
 }   
 .mystery1 .triangleBlue{
-    transform: translate(232px, 325px) rotate(315deg);
+    transform: translate(357px, 387px) rotate(315deg);
 }   
 .mystery1 .triangleYellow {
-    transform: translate(15px, 185px) rotate(45deg);
+    transform: translate(460px, 250px) rotate(225deg);
 }
 .mystery1 .trapezePurple{
-    transform: translate(170px, 385px) skew(-45deg); 
+    transform: translate(610px, 133px) skew(-45deg); 
 }
 .mystery1 .triangleOrange{
-    transform: translate(297px, 301px) rotate(90deg);
+    transform: translate(385px, 125px) rotate(315deg);
 }
