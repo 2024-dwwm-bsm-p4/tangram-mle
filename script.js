@@ -19,3 +19,4 @@ for (let i = 0; i < navbuttons.length; i++) {
         document.querySelector(".container").classList = "container "+ forms[i];
     })
 }
+

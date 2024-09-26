@@ -41,40 +41,40 @@ main{
 }
 
 .squareRed{
-    border-left: 113px solid rgb(121, 0, 0);
-    border-top: 113px solid rgb(121, 0, 0);
+    border-left: 113px solid #FF0300;
+    border-top: 113px solid #FF0300;
 }
 
 .triangleBlue{
     border-left: 113px solid transparent;
-    border-top: 113px solid rgb(0, 9, 63);
+    border-top: 113px solid #00D1FF;
 }
 
 .triangleGreen{
     border-left: 225px solid transparent;
-    border-top: 225px solid rgb(1, 92, 10);
+    border-top: 225px solid #00FF70;
 }
 
 .triangleLime{
     border-left: 112px solid transparent;
-    border-top: 112px solid rgb(86, 225, 0);
+    border-top: 112px solid #a4FF00;
 }
 
 .triangleYellow{
     border-left: 225px solid transparent;
-    border-top: 225px solid rgb(215, 197, 5);
+    border-top: 225px solid #FFD300;
 }
 
 .trapezePurple{
     width: 158px;
     height: 70px;
     transform: skew(-45deg);
-    background-color: rgb(86, 3, 116);
+    background-color: #FF00E8;
 }
 
 .triangleOrange{
     border-left: 155px solid transparent;
-    border-top: 155px solid rgb(198, 139, 1);  
+    border-top: 155px solid #FF8300;  
 }
 
 .container *{
