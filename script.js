@@ -13,6 +13,10 @@ const button1 = document.querySelector(".figure1")
 
 const button2 = document.querySelector(".figure2")
 
+const button3 = document.querySelector(".figure3")
+
+const button5 = document.querySelector(".figure5")
+
 const button6 = document.querySelector(".figure6")
 
 document.querySelector(".container").classList = "container square"
@@ -30,3 +34,17 @@ button2.addEventListener("click", () => {
 button6.addEventListener("click", () => {
     document.querySelector(".container").classList = "container turtle"
 });
+
+button3.addEventListener("click", () => {
+    document.querySelector(".container").classList = "container swan"
+});
+
+
+
+
+
+button5.addEventListener("click", () => {
+    document.querySelector(".container").classList = "container heart"
+});
+
+
