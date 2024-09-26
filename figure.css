@@ -27,8 +27,7 @@ main{
 .container{
     height: 80%;
     width: 50%;
-    background-color: rgb(255, 25, 186);
-
+    background-color: rgb(34, 195, 223);
     margin: auto;
     position: relative;
 }

@@ -15,6 +15,8 @@ const button2 = document.querySelector(".figure2")
 
 const button3 = document.querySelector(".figure3")
 
+const button4 = document.querySelector(".figure4")
+
 const button5 = document.querySelector(".figure5")
 
 const button6 = document.querySelector(".figure6")
@@ -22,6 +24,10 @@ const button6 = document.querySelector(".figure6")
 const button7 = document.querySelector(".figure7")
 
 const button8 = document.querySelector(".figure8")
+
+const button9 = document.querySelector(".figure9")
+
+const button10 = document.querySelector(".figure10")
 
 
 document.querySelector(".container").classList = "container square"
@@ -40,6 +46,10 @@ button3.addEventListener("click", () => {
     document.querySelector(".container").classList = "container swan"
 });
 
+button4.addEventListener("click", () => {
+    document.querySelector(".container").classList = "container duck"
+});
+
 button5.addEventListener("click", () => {
     document.querySelector(".container").classList = "container heart"
 });
@@ -56,3 +66,12 @@ button7.addEventListener("click", () => {
 button8.addEventListener("click", () => {
     document.querySelector(".container").classList = "container mystery1"
 });
+
+button9.addEventListener("click", () => {
+    document.querySelector(".container").classList = "container mystery2"
+});
+
+button10.addEventListener("click", () => {
+    document.querySelector(".container").classList = "container mystery3"
+});
+
