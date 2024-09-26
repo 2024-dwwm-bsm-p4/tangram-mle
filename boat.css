@@ -1,0 +1,21 @@
+.boat .squareRed{
+    transform:translate(440px, 340px) rotate(45deg);
+}
+.boat .triangleGreen{
+    transform: translate(220px, 200px) rotate(45deg);
+}
+.boat .triangleLime{
+    transform: translate(360px, 420px)rotate(315deg);
+}
+.boat .triangleBlue{
+    transform: translate(332px, 35px) rotate(180deg);
+}   
+.boat .triangleYellow {
+    transform: translate(100px, 215px) rotate(90deg);
+}
+.boat .trapezePurple{
+    transform: translate(200px, 505px) rotate(45deg) skew(-45deg);
+}
+.boat .triangleOrange{
+    transform: translate(310px, 405px) rotate(135deg);
+}
