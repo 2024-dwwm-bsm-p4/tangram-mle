@@ -29,7 +29,6 @@ const button9 = document.querySelector(".figure9")
 
 const button10 = document.querySelector(".figure10")
 
-
 document.querySelector(".container").classList = "container square"
 
 //ajout de la fonction qui permet de changer la forme quand on clique sur le boutton associer 
