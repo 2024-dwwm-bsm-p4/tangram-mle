@@ -49,33 +49,39 @@ nav button{
 .triangleBlue{
     border-left: 113px solid transparent;
     border-top: 113px solid #8AC0DE;
+    transform: translate(459px, 335px) rotate(179deg);
 }
 
 .triangleGreen{
     border-left: 225px solid transparent;
     border-top: 225px solid #70AE98;
+    transform: translate(380px, 126px)  rotate(-90deg)  skew(-45deg) ;
 }
 
 .triangleLime{
     border-left: 112px solid transparent;
     border-top: 112px solid #ADDDCE;
+    transform: translate(650px, 126px)  rotate(-90deg);
 }
 
 .triangleYellow{
     border-left: 225px solid transparent;
     border-top: 225px solid #FED797;
+    transform: translate(580px, 426px)  rotate(-90deg);
 }
 
 .trapezePurple{
     width: 158px;
     height: 70px;
-    transform: skew(-45deg);
     background-color: #D3C0F9;
+    transform: translate(825px, 375px) rotate(-136deg) skew(-45deg);
 }
 
 .triangleOrange{
     border-left: 155px solid transparent;
     border-top: 155px solid #ECAD8F;  
+    transform: translate(100px, 126px)  rotate(50deg);
+
 }
 
 .container *{
