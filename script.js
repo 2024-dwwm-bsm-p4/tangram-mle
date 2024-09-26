@@ -9,6 +9,7 @@ for (let i = 0; i < navbuttons.length; i++) {
     navbuttons[i].textContent = forms[i];
 }
 
+
 document.querySelector(".container").classList = "container square"
 
 //ajout de la fonction qui permet de changer la forme quand on clique sur le boutton associer 
