@@ -10,7 +10,7 @@ for (let i = 0; i < navbuttons.length; i++) {
 }
 
 
-document.querySelector(".container").classList = "container square"
+// document.querySelector(".container").classList = "container square"
 
 //ajout de la fonction qui permet de changer la forme quand on clique sur le boutton associer 
 
@@ -19,3 +19,12 @@ for (let i = 0; i < navbuttons.length; i++) {
         document.querySelector(".container").classList = "container "+ forms[i];
     })
 }
+
+    var element = document.querySelector("body");
+    let buttonDark = document.querySelector(".darkmode")
+    
+  
+    buttonDark.addEventListener("click", () => {
+        element.classList.toggle("dark");
+    }) 
+  

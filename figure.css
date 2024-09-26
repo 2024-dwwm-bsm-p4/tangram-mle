@@ -1,5 +1,8 @@
 body{
     margin: 0;
+    background-image:url("https://i.ytimg.com/vi/cfsdA9QHp18/maxresdefault.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1{
@@ -23,17 +26,13 @@ nav button{
     height: 25px;
 }
 
-main{
-    width: 100vw;
-    height: 90vh;
-}
-
 .container{
-    height: 80%;
-    width: 50%;
-    background-color: rgb(34, 195, 223);
+    width: 50vw;
+    height: 100%;
     margin: auto;
     position: relative;
+    
+    
 }
 
 .container *{
@@ -41,42 +40,49 @@ main{
 }
 
 .squareRed{
-    border-left: 113px solid rgb(121, 0, 0);
-    border-top: 113px solid rgb(121, 0, 0);
+    border-left: 113px solid #F99A9C;
+    border-top: 113px solid #F99A9C;
+    transform: translate(277px, 307px)rotate(135deg);
+
 }
 
 .triangleBlue{
     border-left: 113px solid transparent;
-    border-top: 113px solid rgb(0, 9, 63);
+    border-top: 113px solid #8AC0DE;
 }
 
 .triangleGreen{
     border-left: 225px solid transparent;
-    border-top: 225px solid rgb(1, 92, 10);
+    border-top: 225px solid #70AE98;
 }
 
 .triangleLime{
     border-left: 112px solid transparent;
-    border-top: 112px solid rgb(86, 225, 0);
+    border-top: 112px solid #ADDDCE;
 }
 
 .triangleYellow{
     border-left: 225px solid transparent;
-    border-top: 225px solid rgb(215, 197, 5);
+    border-top: 225px solid #FED797;
 }
 
 .trapezePurple{
     width: 158px;
     height: 70px;
     transform: skew(-45deg);
-    background-color: rgb(86, 3, 116);
+    background-color: #D3C0F9;
 }
 
 .triangleOrange{
     border-left: 155px solid transparent;
-    border-top: 155px solid rgb(198, 139, 1);  
+    border-top: 155px solid #ECAD8F;  
 }
 
 .container *{
     transition: transform 2000ms ease;
+}
+
+body.dark {
+    background-size: cover;
+    background-image: url("https://images-ext-1.discordapp.net/external/X3TOFbUFJbyalmENI06HpBdDC0dGXxPun5VEAYip2mI/https/e0.pxfuel.com/wallpapers/41/392/desktop-wallpaper-cookie-monster-background-for-computer-computer-beautiful-computer-and-cute-computer.jpg?format=webp");
 }
