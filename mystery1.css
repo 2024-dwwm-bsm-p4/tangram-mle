@@ -1,5 +1,5 @@
 .mystery1 .squareRed{
-    transform:translate(145px,280px) rotate(35deg);
+    transform:translate(145px, 280px) rotate(35deg);
 }
 .mystery1 .triangleGreen{
     transform: translate(460px, 250px) rotate(45deg);
