@@ -1,32 +1,54 @@
-//récuperation des balise bouttons de la navbar
-const navbuttons = document.querySelectorAll("nav button");
+    const nav = document.querySelector("nav")
+    const element = document.createElement("button"); 
+    const header = document.querySelector("header")
+    const square = document.querySelector(".figure1")
+    square.textContent = "SQUARE"
+    element.classList.add("darkmode")
 
-// créer un tableau avec les nom des formes qu'on doit faire 
-const forms = ["square", "cat", "swan", "duck", "heart", "turtle", "boat", "mystery1", "mystery2", "mystery3"]
+    header.prepend(element)
 
-//boucle pour écrire la forme lié au bouttons
-for (let i = 0; i < navbuttons.length; i++) {
-    navbuttons[i].textContent = forms[i].toUpperCase();
-}
+    const cat = document.createElement("button");
+    cat.textContent = "CAT" 
 
-document.querySelector(".darkmode").textContent = ""
+    nav.append(cat)
 
+    const swan = document.createElement("button");
+    swan.textContent = "SWAN"
 
-// document.querySelector(".container").classList = "container square"
+    nav.append(swan)
 
-//ajout de la fonction qui permet de changer la forme quand on clique sur le boutton associer 
+    const duck = document.createElement("button");
+    duck.textContent = "DUCK"
 
-for (let i = 0; i < navbuttons.length; i++) {
-    navbuttons[i].addEventListener("click", () => {
-        document.querySelector(".container").classList = "container "+ forms[i];
-    })
-}
+    nav.append(duck)
 
-    var element = document.querySelector("body");
-    let buttonDark = document.querySelector(".darkmode")
+    const heart = document.createElement("button");
+    heart.textContent = "HEART"
+
+    nav.append(heart)
+
+    const turtle = document.createElement("button");
+    turtle.textContent = "TURTLE"
+
+    nav.append(turtle)
     
-  
-    buttonDark.addEventListener("click", () => {
-        element.classList.toggle("dark");
-    }) 
-  
+    const boat = document.createElement("button");
+    boat.textContent = "BOAT"
+
+    nav.append(boat)
+
+    const mystery1 = document.createElement("button");
+    mystery1.textContent = "MYSTERY1"
+
+    nav.append(mystery1)
+
+    const mystery2 = document.createElement("button");
+    mystery2.textContent = "MYSTERY2"
+
+    nav.append(mystery2)
+
+    const mystery3 = document.createElement("button");
+    mystery3.textContent = "MYSTERY3"
+
+    nav.append(mystery3)
+    
