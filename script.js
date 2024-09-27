@@ -6,11 +6,11 @@ const forms = ["square", "cat", "swan", "duck", "heart", "turtle", "boat", "myst
 
 //boucle pour écrire la forme lié au bouttons
 for (let i = 0; i < navbuttons.length; i++) {
-    navbuttons[i].textContent = forms[i];
+    navbuttons[i].textContent = forms[i].toUpperCase();
 }
 
 
-document.querySelector(".container").classList = "container square"
+// document.querySelector(".container").classList = "container square"
 
 //ajout de la fonction qui permet de changer la forme quand on clique sur le boutton associer 
 
@@ -20,3 +20,11 @@ for (let i = 0; i < navbuttons.length; i++) {
     })
 }
 
+    var element = document.querySelector("body");
+    let buttonDark = document.querySelector(".darkmode")
+    
+  
+    buttonDark.addEventListener("click", () => {
+        element.classList.toggle("dark");
+    }) 
+  
