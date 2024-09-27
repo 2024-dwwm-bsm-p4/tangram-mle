@@ -6,8 +6,10 @@ const forms = ["square", "cat", "swan", "duck", "heart", "turtle", "boat", "myst
 
 //boucle pour écrire la forme lié au bouttons
 for (let i = 0; i < navbuttons.length; i++) {
-    navbuttons[i].textContent = forms[i];
+    navbuttons[i].textContent = forms[i].toUpperCase();
 }
+
+document.querySelector(".darkmode").textContent = ""
 
 
 // document.querySelector(".container").classList = "container square"
