@@ -53,10 +53,48 @@ nav{
 
 nav button{
     height: 25px;
-    border: none;
-    border-radius: 0.6rem;
     z-index: 999;
+    background-color: #3ab1ff;
+    color: #F8F8F8;
+    width: 80px;
+    border-radius: 0.6rem;
+    border: 1px solid  #F8F8F8;
+    font-family: enfant;
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
 }
+nav button:hover{
+    transform: scale(1.5);
+    transition: transform 1000ms ease
+}
+
+.dark nav button{
+    
+    background-color: rgb(0, 0, 0);
+    color: #e0d8d8;
+    width: 80px;
+    border-radius: 0.6rem;
+    border: none;
+    box-shadow: 1px 3px 15px 0 white;
+   
+}
+
+@keyframes multicolored-shadow {
+    0% {
+        box-shadow: 0 0 10px 5px red, 0 0 10px 5px blue, 0 0 10px 5px green;
+      }
+      50% {
+        box-shadow: 0 0 10px 5px yellow, 0 0 10px 5px cyan, 0 0 10px 5px magenta;
+      }
+      100% {
+        box-shadow: 0 0 10px 5px purple, 0 0 10px 5px orange, 0 0 10px 5px lime;
+    }  
+}
+.dark nav button:hover{
+    animation: multicolored-shadow 5s infinite alternate;
+}
+
 
 .container{
     width: 50vw;
@@ -159,3 +197,4 @@ nav button{
     border-top: 155px solid #FF8300;  
 
 }
+
