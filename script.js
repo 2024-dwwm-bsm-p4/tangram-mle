@@ -6,6 +6,8 @@
     const head = document.querySelector("head")
     const container = document.querySelector(".container")
     square.textContent = "SQUARE"
+
+    header.prepend(element)
     element.classList.add("darkmode")
 
 // créer un tableau avec les nom des formes qu'on doit faire 
