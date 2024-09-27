@@ -9,6 +9,8 @@ for (let i = 0; i < navbuttons.length; i++) {
     navbuttons[i].textContent = forms[i].toUpperCase();
 }
 
+document.querySelector(".darkmode").textContent = ""
+
 
 // document.querySelector(".container").classList = "container square"
 
