@@ -1,32 +1,40 @@
-//récuperation des balise bouttons de la navbar
-const navbuttons = document.querySelectorAll("nav button");
+    const nav = document.querySelector("nav")
+    const element = document.createElement("button"); 
+    const header = document.querySelector("header")
+    const square = document.querySelector(".figure1")
+    const body = document.querySelector("body")
+    const head = document.querySelector("head")
+    const container = document.querySelector(".container")
+    square.textContent = "SQUARE"
+    element.classList.add("darkmode")
 
 // créer un tableau avec les nom des formes qu'on doit faire 
-const forms = ["square", "cat", "swan", "duck", "heart", "turtle", "boat", "mystery1", "mystery2", "mystery3"]
 
-//boucle pour écrire la forme lié au bouttons
-for (let i = 0; i < navbuttons.length; i++) {
-    navbuttons[i].textContent = forms[i].toUpperCase();
-}
+    let forms = ["cat", "swan", "duck", "heart", "turtle", "boat", "mystery1", "mystery2", "mystery3"]
 
-document.querySelector(".darkmode").textContent = ""
+    let formsButton = ["square", "cat", "swan", "duck", "heart", "turtle", "boat", "mystery1", "mystery2", "mystery3"]
 
+    let stylesheets = ["square.css", "cat.css", 'swan.css', "duck.css", 'heart.css', 'turtle.css', 'boat.css', "mystery1.css", "mystery2.css", "mystery3.css"]
 
-// document.querySelector(".container").classList = "container square"
+    forms.forEach(form => {       
+        let button = document.createElement("button")
+        button.textContent = form.toUpperCase()
+        nav.append(button)
+    });
 
-//ajout de la fonction qui permet de changer la forme quand on clique sur le boutton associer 
-
-for (let i = 0; i < navbuttons.length; i++) {
-    navbuttons[i].addEventListener("click", () => {
-        document.querySelector(".container").classList = "container "+ forms[i];
-    })
-}
-
-    var element = document.querySelector("body");
-    let buttonDark = document.querySelector(".darkmode")
+    const navbuttons = document.querySelectorAll("nav button")
     
-  
-    buttonDark.addEventListener("click", () => {
-        element.classList.toggle("dark");
-    }) 
-  
+    
+    let link = document.createElement("link")
+    link.setAttribute("rel", "stylesheet")
+    head.append(link)
+    
+    for (let i = 0; i < formsButton.length; i++) {
+        navbuttons[i].addEventListener("click", () =>{
+            link.setAttribute("href", stylesheets[i])
+        })
+    }
+
+    element.addEventListener("click", () =>{
+        body.classList.toggle("dark")
+    })
