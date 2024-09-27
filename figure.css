@@ -20,6 +20,26 @@ h1{
 }
 
 .darkmode{
+    background-image: url(soleil.avif);
+    width: 100px;
+    height: 100px;
+    background-repeat: none;
+    background-size: contain;
+    border: none;
+}
+
+.dark .darkmode{
+    background-image: url(lune.png);
+    background-color: #000;
+    background-size: 130%;
+    background-position: center;
+}
+
+.darkmode:hover{
+    transform: scale(1.5);
+}
+
+.darkmode{
     position: fixed;
     right: 15px;
     top: 15px;
@@ -33,7 +53,9 @@ nav{
 
 nav button{
     height: 25px;
-
+    border: none;
+    border-radius: 0.6rem;
+    z-index: 999;
 }
 
 .container{
@@ -41,8 +63,6 @@ nav button{
     height: 100%;
     margin: auto;
     position: relative;
-    
-    
 }
 
 .container *{
@@ -53,7 +73,6 @@ nav button{
     border-left: 113px solid #F99A9C;
     border-top: 113px solid #F99A9C;
     transform: translate(577px, 307px)rotate(135deg);
-
 }
 
 .triangleBlue{
@@ -91,7 +110,6 @@ nav button{
     border-left: 155px solid transparent;
     border-top: 155px solid #ECAD8F;  
     transform: translate(150px, 126px)  rotate(50deg);
-
 }
 
 .container *{
@@ -108,7 +126,6 @@ nav button{
 .dark .squareRed{
     border-left: 113px solid #FF0300;
     border-top: 113px solid #FF0300;
-
 }
 
 .dark .triangleBlue{
