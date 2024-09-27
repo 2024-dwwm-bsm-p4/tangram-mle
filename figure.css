@@ -43,6 +43,7 @@ nav button{
     font-weight: 700;
     cursor: pointer;
 }
+
 nav button:hover{
     transform: scale(1.5);
     transition: transform 1000ms ease
